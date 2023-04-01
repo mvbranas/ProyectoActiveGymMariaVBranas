@@ -1,0 +1,23 @@
+
+.contenedorLogo{
+    width:100px;
+    object-fit: contain;
+    border-radius: 3px;
+ }  
+ .encabezado{
+     background-color: #008b6f88;
+     display: $display-flex;
+     flex-direction: row;
+     flex-wrap: inherit;
+     justify-content:space-between;
+     align-items:center;
+     
+ 
+   
+ }
+ .deco{
+     text-decoration: none;
+     list-style:none;
+     font-weight:$ancho-texto $color-negro;  
+       
+ }

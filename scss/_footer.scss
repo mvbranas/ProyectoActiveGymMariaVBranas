@@ -1,0 +1,24 @@
+.piePagina{
+    bottom:0;
+    left:0;
+    height:4rem;
+    width:100%;
+}
+.alinear{
+   text-align: center;
+   color:$color-negro;
+}
+.icon{
+    display: inline-block;
+    font-size: 2rem;
+    color:$color-negro;
+    font-weight: $ancho-texto;
+    animation: float infinite 4s ease-in-out ;
+}
+.ri-facebook-circle-line{
+   animation-delay: 0.5s; /*Adds a animation delay of 1 seconds.*/
+}
+
+.ri-whatsapp-line{
+  animation-delay: 1s; /*Adds a animation delay of 2 seconds.*/
+}
