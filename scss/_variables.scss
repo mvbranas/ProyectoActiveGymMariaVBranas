@@ -1,3 +1,10 @@
 $color-negro:black;
 $display-flex: flex;
 $ancho-texto: bold;
+
+$mapbordes:(
+    bordenegro: solid black,
+    bordeescondido:hidden rgba(0, 0, 0, 0.479),
+    bordegris: solid rgba(128, 128, 128, 0.774),
+
+);

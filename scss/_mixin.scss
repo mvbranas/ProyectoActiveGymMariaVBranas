@@ -1,0 +1,9 @@
+@mixin flexible ($wrap-mixin, $justify, $alinea-cont, $alineacion){
+    display: flex;
+    flex-wrap: $wrap-mixin;
+    justify-content: $justify;
+    align-content: $alinea-cont;
+    align-items: $alineacion;
+
+
+}
