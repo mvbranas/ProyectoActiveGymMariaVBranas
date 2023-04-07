@@ -2,7 +2,9 @@
     display: $display-flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;       
+    align-items: center;
+    font-weight: $ancho-texto; 
+          
 }
 .subtiIndex{
     text-align: center;       
@@ -36,6 +38,12 @@
         width: 30%;
         opacity: 1;
         filter: contrast(100%);
+}
+@media screen and (max-width: 768px){
+    .boxIndex:hover{
+        background-color: rgba(240, 248, 255, 0.644);
+    
+    }
 }
 .img{ 
     width: fit-content;
@@ -109,7 +117,7 @@
         height: 80%;
     }
     .imagenGal:hover{
-        width: 70%;
+        width: 100%;
         
     }
 }
