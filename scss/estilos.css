@@ -66,11 +66,12 @@ body {
 
 @media screen and (max-width: 768px) {
   .piePagina {
+    background-color: rgba(0, 139, 111, 0.6039215686);
     bottom: 0;
     left: 0;
     height: 4rem;
     width: 100%;
-    position: relative;
+    position: fixed;
   }
 }
 .cuerpoIndex {
