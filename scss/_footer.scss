@@ -3,6 +3,7 @@
     left:0;
     height:4rem;
     width:100%;
+    font-weight: bold;
 }
 .alinear{
    text-align: center;
@@ -22,3 +23,13 @@
 .ri-whatsapp-line{
   animation-delay: 1s; /*Adds a animation delay of 2 seconds.*/
 }
+@media screen and (max-width: 768px)
+{.piePagina{
+  bottom:0;
+  left:0;
+  height:4rem;
+  width:100%;
+  position:relative;
+ }}
+
+

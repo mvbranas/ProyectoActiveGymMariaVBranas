@@ -35,28 +35,12 @@ body {
   font-weight: bold black;
 }
 
-/*.encabezado{
-    background-color: #008b6f88;
-    display: $display-flex;
-    flex-direction: row;
-    flex-wrap: inherit;
-    justify-content:space-between;
-    align-items:center;
-
-
-
-}
-.deco{
-    text-decoration: none;
-    list-style:none;
-    font-weight:$ancho-texto $color-negro;  
-
-}*/
 .piePagina {
   bottom: 0;
   left: 0;
   height: 4rem;
   width: 100%;
+  font-weight: bold;
 }
 
 .alinear {
@@ -80,6 +64,15 @@ body {
   animation-delay: 1s; /*Adds a animation delay of 2 seconds.*/
 }
 
+@media screen and (max-width: 768px) {
+  .piePagina {
+    bottom: 0;
+    left: 0;
+    height: 4rem;
+    width: 100%;
+    position: relative;
+  }
+}
 .cuerpoIndex {
   display: flex;
   flex-wrap: wrap;
@@ -127,6 +120,9 @@ body {
 @media screen and (max-width: 768px) {
   .boxIndex:hover {
     background-color: rgba(240, 248, 255, 0.644);
+    width: 100%;
+    opacity: 1;
+    filter: contrast(100%);
   }
 }
 .img {
@@ -149,6 +145,7 @@ body {
   justify-content: space-around;
   align-content: space-evenly;
   align-items: center;
+  font-weight: bold;
 }
 
 .clases {
@@ -205,7 +202,9 @@ body {
     height: 80%;
   }
   .imagenGal:hover {
-    width: 100%;
+    width: 90%;
+    opacity: 1;
+    filter: contrast(120%);
   }
 }
 .bordeTitulo {

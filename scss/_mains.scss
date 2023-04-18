@@ -42,6 +42,9 @@
 @media screen and (max-width: 768px){
     .boxIndex:hover{
         background-color: rgba(240, 248, 255, 0.644);
+        width: 100%;
+        opacity: 1;
+        filter: contrast(100%);
     
     }
 }
@@ -62,6 +65,7 @@
     justify-content:space-around;
     align-content: space-evenly;
     align-items: center;
+    font-weight: $ancho-texto;
 }
 .clases{
     width:55%;
@@ -77,6 +81,7 @@
         margin-top: 10px;
         margin-bottom: 10px;}
     }
+  
 
 .galeria{ 
     width: 90%;
@@ -117,7 +122,9 @@
         height: 80%;
     }
     .imagenGal:hover{
-        width: 100%;
+        width: 90%;
+        opacity: 1;
+        filter: contrast(120%);
         
     }
 }
@@ -140,11 +147,7 @@
 }
 .contacto{
     @include flexible (wrap, space-evenly,space-evenly, center)
-    /*display: $display-flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-content: space-evenly;
-    align-items: center;*/
+  
     
 }
 .contactoCuerpo{
